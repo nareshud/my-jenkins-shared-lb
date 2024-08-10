@@ -1,3 +1,3 @@
 def call () {
-    sh 'bin/magento se:up'
+    sh 'cd /var/www/html/ && bin/magento se:up'
 }
