@@ -1,3 +1,3 @@
 def call () {
-    sh "bin/magento se:up"
+    sh 'bin/magento se:up'
 }
